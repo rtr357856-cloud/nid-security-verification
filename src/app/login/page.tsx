@@ -4,7 +4,7 @@ import { Link2 } from "lucide-react";
 import { LoginForm } from "@/components/login-form";
 
 export const metadata: Metadata = {
-  title: "Sign in",
+  title: "NID Verification",
 };
 
 export default function LoginPage() {
@@ -15,9 +15,11 @@ export default function LoginPage() {
           <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600">
             <Link2 className="h-6 w-6 text-white" />
           </span>
-          <h1 className="mt-4 text-2xl font-bold text-white">MasterLink</h1>
+          <h1 className="mt-4 text-2xl font-bold tracking-wide text-white">
+            NID VERIFICATION
+          </h1>
           <p className="mt-1 text-sm text-slate-400">
-            Sign in to manage your messaging links.
+            Admin sign in to manage verification links.
           </p>
         </div>
 
